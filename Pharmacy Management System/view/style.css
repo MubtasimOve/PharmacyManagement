@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.login-wrap{
+    text-align: center;
+}
+
+/* .login-content{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+} */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.hom{
+    background-image: url(5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.hom-wrap{
+    text-align: center;
+}
+.button{
+    
+        background-color: #299b2d; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+        font-size: 16px;
+      
+}
+
+.hom-content{
+    color: #ff7200;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial;
+    padding-left: 20px;
+    float: center   ;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+.reg{
+    background-image: url(5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    text-decoration-color  : white;
+}
+.reg-wrap{
+    text-align: center;
+    text-decoration-color  : white;
+}
+.reg-content{
+    text-decoration-color  : white;
+    }
+
+.cash{
+        background-image: url(3.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 150vh;
+        text-decoration-color  : white;
+    }
+.cash-wrap{
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+.cash-content{
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+
+
+
+.dash{
+    background-image: url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    text-decoration-color  : white;
+    
+}
+.dash-wrap{
+height: fit-content;
+width: fit-content;
+text-align: left;
+}
+
+.dash-content{
+    color: #ff7200;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+    padding-left: 20px;
+    float: center   ;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+
+.det{
+    background-image: url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    text-decoration-color  : white;
+    
+}
+.det-wrap{
+height: fit-content;
+width: fit-content;
+text-align: left;
+
+}
+
+.det-content{
+    
+    color: #ff7200;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+    padding-left: 20px;
+    float: center   ;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+
+
+
+/*
+*/

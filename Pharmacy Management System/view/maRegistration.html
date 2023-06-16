@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="../view/reg.js"></script>
+    <title>Manager Registration</title>
+</head>
+<body>
+    <section class="reg">
+        <div class="reg-wrap">
+            <div class="reg-content">
+
+    <h1 style="color: rgb(224, 217, 217);"><u>Manager Registration</u></h1>
+    <form action="../controller/maRegAction.php" method="POST" novalidate onsubmit= "return isValid(this)";> 
+        <fieldset>
+        <legend style="color:white ;"><h1>Basic Information :</h1> </legend>
+            <br>
+            <label for="fname"> First Name :  </label>
+            <br>
+            <input type="text" id="fname" name="fname" value="">
+            <br><br>
+            <label for="lname"> Last Name :  </label>
+            <br>
+            <input type="text" id="lname" name="lname" value="">
+            <br><br>
+              <label for="dob"> Date Of Birth :  </label>
+              <br>
+              <input type="date"  name="dob">
+              <br><br> 
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend style="color:white ;"><h1>Contact Information :</h1> </legend>
+            <br>
+            <label for="praddress"> Present Address : </label>
+            <br>
+            <textarea id="praddress" name="praddress" >
+            </textarea>
+            <br><br> 
+            <label for="pmaddress"> Permanent Address : </label>
+            <br>
+            <textarea id="pmaddress" name="pmaddress" >
+            </textarea><br>
+            <label for="phone"> Phone : </label><br>
+            <input type="tel" id="phone" name="phone" value="">
+            <br><br>
+            <label for="email"> Email :  </label><br>
+            <input type="email" id="email" name="email" value="">
+            <br><br>
+        
+        </fieldset>
+            <br>
+            <fieldset>
+                <legend style="color:white ;"><h1> Credentials :</h1> </legend>
+                <br>
+                <label for="uname"> Username :  </label>
+                <br>
+                <input type="text" id="uname" name="uname" >
+                </input>
+                <br><br> 
+                <label for="pass"> Password :  </label>
+                <br>
+                <input type="password" id="pass" name="pass" >
+                </input>
+                <br><br> 
+                <label for="confirmpassword"> Confirm Password :  </label>
+                <br>
+                <input type="password" id="confirmpassword" name="confirmpassword" >
+                </input>
+                <br>
+            </fieldset>
+            <br>
+    
+        
+        <input class="button"  type="submit" name="create" value="Create">
+    </form>
+    <h3>OR</h3>
+    <form action="../controller/maRegAction.php" method="POST"><input class="button"  type="submit" name="login" value="Login"></form>
+            </div></div></section>
+</body>
+</html>
+

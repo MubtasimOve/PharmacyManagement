@@ -1,0 +1,32 @@
+<pages>
+<link>
+<title>Manager</title>
+<url>../view/maDa.php</url>
+</link>
+<link>
+<title>Cashier</title>
+<url>../view/cashierdetails.php</url>
+</link>
+<link>
+<title>Pharmacists</title>
+<url>../view/Form.php</url>
+</link>
+<link>
+<title>Medicine Inventory</title>
+<url>../view/Show_All</url>
+</link>
+<link>
+<title>Medicine Inventory</title>
+<url>../view/Inventory.html</url>
+</link>
+<link>
+<title>Medicine Inventory</title>
+<url>../view/monthlysales.php</url>
+</link>
+<link>
+<title>Medicine Inventory</title>
+<url>../view/manageInAction.php</url>
+</link>
+
+
+</pages>
